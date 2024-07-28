@@ -1,0 +1,28 @@
+# Prerequisites
+*.d
+
+# Compiled object files
+*.lo
+*.slo
+*.obj
+*.o
+
+# Precompiled headers
+*.gch
+*.pch
+
+# Compiled dynamic libraries
+*.so
+*.dylib
+*.dll
+
+# Compiled static libraries
+*.a
+*.lai
+*.lib
+*.la
+
+# Executables
+*.exe
+*.out
+*.app
