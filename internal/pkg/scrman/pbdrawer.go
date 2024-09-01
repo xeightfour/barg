@@ -26,7 +26,7 @@ func drawNode(pb *prober.Prober, root int, top int, left int, sc *Screen) (int, 
 	// Find root's position
 	length := len(pb.Nodes[root].Name)
 	right = max(right, left+length+1)
-	pos := (right+left-length-1)/2
+	pos := (right + left - length - 1) / 2
 
 	// Draw root
 	if err := sc.TexBox(top, pos, pb.Nodes[root].Name); err != nil {
