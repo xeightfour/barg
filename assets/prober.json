@@ -1,0 +1,75 @@
+{
+	"name": "dahane",
+	"nodes": [
+		{
+			"name": "pump-1",
+			"type": 1,
+			"stat": 1
+		},
+		{
+			"name": "valve-1",
+			"type": 0,
+			"stat": 1
+		},
+		{
+			"name": "valve-2",
+			"type": 0,
+			"stat": 1
+		},
+		{
+			"name": "sink-1",
+			"type": -1,
+			"stat": 1
+		},
+		{
+			"name": "sink-2",
+			"type": -1,
+			"stat": 1
+		},
+		{
+			"name": "valve-3",
+			"type": 0,
+			"stat": 1
+		},
+		{
+			"name": "valve-4555",
+			"type": 0,
+			"stat": 1
+		},
+		{
+			"name": "valvexx",
+			"type": 0,
+			"stat": 1
+		}
+	],
+	"pipes": [
+		{
+			"from": "valve-1",
+			"to": "valve-2"
+		},
+		{
+			"from": "pump-1",
+			"to": "valve-1"
+		},
+		{
+			"from": "valve-1",
+			"to": "sink-1"
+		},
+		{
+			"from": "valve-1",
+			"to": "sink-2"
+		},
+		{
+			"from": "pump-1",
+			"to": "valve-3"
+		},
+		{
+			"from": "valve-3",
+			"to": "valve-4555"
+		},
+		{
+			"from": "valve-2",
+			"to": "valvexx"
+		}
+	]
+}
